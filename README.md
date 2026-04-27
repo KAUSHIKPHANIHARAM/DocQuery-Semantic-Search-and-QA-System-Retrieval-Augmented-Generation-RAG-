@@ -86,15 +86,6 @@ If processing large PDF files causes memory issues:
 
 If the system cannot find a cached index, it will regenerate it. This is normal on first run or after clearing the cache. Delete the data/faiss_index directory to start fresh.
 
-## Google Colab Usage
-
-A Jupyter notebook is provided for running DocuQuery in Google Colab:
-
-1. Open NLP_CBP_Colab.ipynb in Google Colab
-2. Run the cells sequentially to set up the environment
-3. Upload documents directly in the notebook interface
-4. Execute queries interactively
-
 ## Contributing
 
 Contributions are welcome. Please follow these guidelines:
@@ -123,4 +114,10 @@ Potential improvements for future versions include:
 - Batch processing capabilities for automated document workflows
 - API endpoints for integration with other applications
 - Caching mechanisms to improve repeated query performance
+##Instalation
+git clone https://github.com/KAUSHIKPHANIHARAM/DocQuery-Semantic-Search-and-QA-System-Retrieval-Augmented-Generation-RAG-
+cd NLP_CBP
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
