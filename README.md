@@ -1,4 +1,4 @@
-# DocuQuery: Semantic Search and QA System
+# DocuQuery: Semantic Search and QA System.
 
 A Retrieval-Augmented Generation (RAG) system that enables intelligent question-answering across multiple document formats. This application combines semantic embeddings with vector similarity search to provide accurate, context-aware responses from your documents.
 
