@@ -35,7 +35,7 @@ The system consists of three main components:
 - Transformers: Deep learning models for NLP
 - PyPDF2: PDF document processing
 - PyTorch: Deep learning backend
-- python-docx: Word document processing
+- python-docx: Word document processing.
 
 
 ### Working with Different Document Formats
